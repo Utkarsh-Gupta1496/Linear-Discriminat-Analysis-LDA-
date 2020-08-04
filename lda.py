@@ -14,13 +14,13 @@ def loadimages2(path="."):
     return[os.path.join(path,f)for f in os.listdir(path) if f.endswith('sad.gif')] 
     
 #load only happy train images
-train_happy=loadimages1("./emotion_classification/train")
+train_happy=loadimages1(".data/train")
 #load only sad train images
-train_sad=loadimages2("./emotion_classification/train")
+train_sad=loadimages2(".data/train")
 #load only happy test images
-test_happy=loadimages1("./emotion_classification/test")
+test_happy=loadimages1(".data/test")
 #load only sad test images
-test_sad=loadimages2("./emotion_classification/test")
+test_sad=loadimages2(".data/test")
 train_complete=[]
 
 def concat_test(images):
