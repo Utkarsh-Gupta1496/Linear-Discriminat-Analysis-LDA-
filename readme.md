@@ -11,7 +11,7 @@ This Repository demonstrates how LDA can be used to build a classifier. It has i
  (K detetrmines the seperablity of Data points in 1 dimmension)
  
  **Sample Test Inputs:**
- ![](/images/output1.png)
+ ![](/images/output1.PNG)
  **Sample Test Outputs:**
  ![](/images/output.png)
  
