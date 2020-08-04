@@ -10,6 +10,9 @@ This Repository demonstrates how LDA can be used to build a classifier. It has i
  4. Select the optimum threshold to classify the emotion and report the classification accuracy on the test data.
  (K detetrmines the seperablity of Data points in 1 dimmension)
  
- Sample Test Inputs:
+ **Sample Test Inputs:**
+ ![](/images/output1.png)
+ **Sample Test Outputs:**
+ ![](/images/output.png)
  
  
